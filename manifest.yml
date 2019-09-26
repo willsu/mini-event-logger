@@ -1,0 +1,7 @@
+---
+applications:
+- name: mini-event-logger
+  command: exec ruby ./mini_event_logger.rb
+  no-route: true # need to manually configure tcp route
+  buildpack: binary_buildpack
+
